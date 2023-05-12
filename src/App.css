@@ -1,38 +1,90 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  width: 400px;
+  height: 600px;
+  justify-content: flex-start;
+  align-items: center;
   display: flex;
   flex-direction: column;
+  background-color: antiquewhite;
+
+}
+.HomeButton{
+  margin-top: 50px;
+  justify-content: center;
+  font-size: medium;
+}
+
+.backbutton{
+  margin-top: 40px;
+  
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-right: 120px;
+  margin-left: 120px;
+  
+}
+.loggedIn{
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+
+.createbutton{
+  margin-top: 100px;
+}
+
+.button{
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 3px;
+  gap: space-between;
+
 }
 
-.App-link {
-  color: #61dafb;
+.seed{
+  margin-top: 40px;
+  padding: 4px;
+  padding-right: 4px;
+  padding-left: 4px;
+  margin-left: 4px;
+  margin-right: 4px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.hash{
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: smaller;
+  justify-content: center;
+  display: flex;
+  align-items: center
+}
+
+.account{
+  margin-top: 80px;
+  margin-left: 40px;
+  margin-right: 40px;
+  align-items: center;
+  font-size: medium;
+}
+.address01{
+  font-size: small;
+  margin-right: 10px;
+  margin-left: 10px;
+  
+}
+
+.address{
+  font-size: small;
+  margin-right: 10px;
+  margin-left: 10px;
+  font-style: bold;
+  font-weight:600;
+  
+}
+.phrase{
+  font-size: small;
+  margin-left: 10px;
+  margin-right: 10px;
 }
